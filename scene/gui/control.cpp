@@ -2866,7 +2866,7 @@ void Control::_bind_methods() {
 Control::Control() {
 	data.parent = nullptr;
 
-	data.mouse_filter = MOUSE_FILTER_STOP;
+	data.mouse_filter = MOUSE_FILTER_PASS;
 
 	data.RI = nullptr;
 	data.theme_owner = nullptr;

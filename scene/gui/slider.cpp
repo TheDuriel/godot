@@ -276,5 +276,6 @@ Slider::Slider(Orientation p_orientation) {
 	custom_step = -1;
 	editable = true;
 	scrollable = true;
+	set_mouse_filter(MOUSE_FILTER_STOP);
 	set_focus_mode(FOCUS_ALL);
 }

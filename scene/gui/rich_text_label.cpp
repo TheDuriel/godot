@@ -2910,6 +2910,7 @@ RichTextLabel::RichTextLabel() {
 
 	fixed_width = -1;
 	set_clip_contents(true);
+	set_mouse_filter(MOUSE_FILTER_STOP);
 }
 
 RichTextLabel::~RichTextLabel() {

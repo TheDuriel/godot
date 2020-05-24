@@ -7289,7 +7289,7 @@ TextEdit::TextEdit() {
 	set_readonly(false);
 	menu->connect("id_pressed", callable_mp(this, &TextEdit::menu_option));
 	first_draw = true;
-
+	set_mouse_filter(MOUSE_FILTER_STOP);
 	executing_line = -1;
 }
 

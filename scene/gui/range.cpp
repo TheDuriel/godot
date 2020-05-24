@@ -322,6 +322,8 @@ Range::Range() {
 	shared->allow_lesser = false;
 
 	_rounded_values = false;
+
+	set_mouse_filter(MOUSE_FILTER_STOP);
 }
 
 Range::~Range() {

@@ -431,6 +431,7 @@ BaseButton::BaseButton() {
 	status.hovering = false;
 	status.pressing_inside = false;
 	status.disabled = false;
+	set_mouse_filter(MOUSE_FILTER_STOP);
 	set_focus_mode(FOCUS_ALL);
 	enabled_focus_mode = FOCUS_ALL;
 	action_mode = ACTION_MODE_BUTTON_RELEASE;

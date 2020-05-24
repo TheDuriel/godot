@@ -628,6 +628,7 @@ ScrollBar::ScrollBar(Orientation p_orientation) {
 		set_focus_mode(FOCUS_ALL);
 	}
 	set_step(0);
+	set_mouse_filter(MOUSE_FILTER_STOP);
 }
 
 ScrollBar::~ScrollBar() {

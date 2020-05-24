@@ -3914,6 +3914,8 @@ Tree::Tree() {
 
 	allow_reselect = false;
 	propagate_mouse_activated = false;
+
+	set_mouse_filter(MOUSE_FILTER_STOP);
 }
 
 Tree::~Tree() {
